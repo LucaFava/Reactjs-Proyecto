@@ -11,10 +11,10 @@ export const ItemList = ({productos, titulo}) => {
 
     return(
         <section className="productos-section">
-            <h2>{titulo}</h2>
-            <div className="productos-contenedor">
+            <h1>{titulo}</h1>
+            <article className="productos-contenedor">
                 {productos.map((producto) => <Item key={producto.id} producto = {producto}/>)}
-            </div>
+            </article>
         </section>
     )
 }

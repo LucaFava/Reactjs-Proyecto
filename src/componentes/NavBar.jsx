@@ -13,10 +13,10 @@ export const NavBar = () => {
             <div className="titulo"><Link to="/"><h1>PERISFAVA</h1></Link></div>
             <ul className="menu">
                 <li><Link  className="links" to="/productos">TODOS</Link></li>
-                <li><Link  className="links" to="/productos/auriculares" >AURICULARES</Link></li>
-                <li><Link  className="links" to="/productos/teclados">TECLADOS</Link></li>
-                <li><Link  className="links" to="/productos/pads">PADS</Link></li>
-                <li><Link  className="links" to="/productos/mouses">MOUSES</Link></li>
+                <li><Link  className="links" to="/productos/auricular" >AURICULARES</Link></li>
+                <li><Link  className="links" to="/productos/teclado">TECLADOS</Link></li>
+                <li><Link  className="links" to="/productos/pad">PADS</Link></li>
+                <li><Link  className="links" to="/productos/mouse">MOUSES</Link></li>
             </ul>
             <div className="carrito-contenedor">
                 <CartWidget/>

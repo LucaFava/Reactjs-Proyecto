@@ -47,5 +47,14 @@
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3rem;
 }
+/* .card{
 
+} */
+.img-contenedor{
+    width: 16.5rem;
+}
+.img-contenedor img{
+    width: 16.5rem;
+    
+}
 
