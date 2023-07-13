@@ -1,1 +1,51 @@
+/* NAV BAR */
+.navbar{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    border-style: solid;
+    border-width: 0 0 1px 0; 
+}
+
+.menu{
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.titulo a{
+    text-decoration: none;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin: 0 1rem;
+}
+
+.carrito-contenedor{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    margin: 0 2rem;
+}
+/* ----------------------------------- */
+/* CARDS */
+.productos-section{
+    height: 100vh;
+    width: 100vw;
+    
+}
+.productos-contenedor{
+    margin-left: 5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 3rem;
+}
+
 

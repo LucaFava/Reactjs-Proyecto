@@ -1,0 +1,146 @@
+[
+    {
+        "id": "auricular1",
+        "nombre": "Auricular HyperX cloud stinger",
+        "precio": 30000 ,
+        "categoria":"auricular" ,
+        "marca": "hyperx",
+        "cantidad": 1,
+        "imagen" : "https://www.venex.com.ar/products_images/thumb/1539800974_rhrh.jpg"
+    },
+    {
+        "id": "auricular2",
+        "nombre": "Auricular Logitech astro A10",
+        "precio": 48000 ,
+        "categoria": "auricular",
+        "marca": "logitech",
+        "cantidad": 1, 
+        "imagen" : "https://www.venex.com.ar/products_images/thumb/1540049982_3ah10psx9y602_angled.jpg"
+    },
+    {
+        "id": "auricular3",
+        "nombre": "Auricular Logitech G332",
+        "precio": 20000 ,
+        "categoria": "auricular",
+        "marca": "logitech",
+        "cantidad":1 ,
+        "imagen" : "https://www.venex.com.ar/products_images/thumb/1582917314_332.jpg"
+    },
+    {
+        "id": "auricular4",
+        "nombre": "Auricular Logitech G335 Black",
+        "precio": 45000 ,
+        "categoria": "auricular",
+        "marca": "logitech",
+        "cantidad": 1, 
+        "imagen" : "https://www.venex.com.ar/products_images/thumb/1631221124_000000000041378918354concepto-6169538.jpg"
+    },
+    {
+        "id": "auricular5",
+        "nombre": "Auricular Redragon Pandora H350 White",
+        "precio": 18000 ,
+        "categoria": "auricular",
+        "marca": "redragon",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1624654248_1019-producto-redragon-pandora-white-2-5687.jpg"
+    },
+    {
+        "id": "auricular6",
+        "nombre": "Auricular Redragon Zeus Black",
+        "precio": 30000 ,
+        "categoria": "auricular",
+        "marca": "redragon",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1640356449_1637937156546.jpg"
+    },
+    {
+        "id": "mouse1",
+        "nombre": "Mouse HyperX PulseFire core RGB",
+        "precio": 11000 ,
+        "categoria": "mouse",
+        "marca": "hyperx",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1547144217_big_hxmc004b.jpg"
+    },
+    {
+        "id": "mouse2",
+        "nombre": "Mouse HyperX PulseFire Raid",
+        "precio": 26500 ,
+        "categoria": "mouse",
+        "marca": "hyperx",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1588889867_1.jpg"
+    },
+    {
+        "id": "mouse3",
+        "nombre": "Mouse Logitech G203",
+        "precio": 14440 ,
+        "categoria": "mouse",
+        "marca": "logitech",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1597440443_iil224907641025.jpg"
+    },
+    {
+        "id": "pad1",
+        "nombre": "MousePad HyperX Fury S",
+        "precio": 11000 ,
+        "categoria": "pad",
+        "marca": "hyperx",
+        "cantidad": 1,
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1564157364_81hikye19l._sl1428_.jpg" 
+    },
+    {
+        "id": "pad2",
+        "nombre": "MousePad HyperX Fury XL",
+        "precio": 18000 ,
+        "categoria": "pad",
+        "marca": "hyperx",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1560544952_moukinhxfssxl.jpg" 
+    },
+    {
+        "id": "pad3",
+        "nombre": "MousePad Redragon Suzaku XL",
+        "precio": 8000 ,
+        "categoria": "pad",
+        "marca": "redragon",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1534178785_p0034.jpg"
+    },
+    {
+        "id": "teclado1",
+        "nombre": "Teclado Alloy Core",
+        "precio": 25600 ,
+        "categoria": "teclado",
+        "marca": "hyperx",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1562941402_170562_large.jpg"
+    },
+    {
+        "id": "teclado2",
+        "nombre": "Teclado Alloy Origins",
+        "precio": 44200 ,
+        "categoria": "teclado",
+        "marca": "hyperx",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1581968287_rtrt.jpg"
+    },
+    {
+        "id": "teclado3",
+        "nombre": "Teclado logitech g213",
+        "precio": 38000 ,
+        "categoria": "teclado",
+        "marca": "logitech",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1499109022_g213.jpg"
+    },
+    {
+        "id": "teclado4",
+        "nombre": "Teclado Redragon Kumara K552 White",
+        "precio": 14000 ,
+        "categoria": "teclado",
+        "marca": "redragon",
+        "cantidad": 1, 
+        "imagen":"https://www.venex.com.ar/products_images/thumb/1655236847_k552w_pnghq_1.jpg"
+    }
+]
