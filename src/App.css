@@ -35,26 +35,129 @@
     margin: 0 2rem;
 }
 /* ----------------------------------- */
-/* CARDS */
-.productos-section{
-    height: 100vh;
-    width: 100vw;
-    
+/* TITULO */
+.productos-section h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: 3rem;
+    font-size: 2.5rem;
 }
+/* CARDS */
+
 .productos-contenedor{
     margin-left: 5rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     row-gap: 3rem;
+    column-gap: 3rem;
 }
-/* .card{
+/* card */
+.card{
+    background: rgb(3,0,85);
+background: linear-gradient(330deg, rgba(3,0,85,1) 22%, rgba(0,35,255,1) 65%, rgba(0,212,255,1) 90%);
+    width: 17rem;
+    height: 22rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: .5rem;
+}
+.card:hover{
+    transition: all .2s;
+    transform: scale(1.1);
+}
+/* ----------------- */
 
-} */
+/* texto card */
+.texto-card{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.texto-card p{
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+.texto-card h3{
+    margin: .5rem;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 1.3rem;
+    color: white;
+}
+/* ------------------- */
+
+/* imagen card */
 .img-contenedor{
-    width: 16.5rem;
+    width: 15rem;
+    height: 200px;
+    border-radius: .5rem;
 }
 .img-contenedor img{
-    width: 16.5rem;
+    width: 15rem;
+    height: 200px;
+    border-radius: .5rem;
+}
+/* ------------------- */
+
+/* botones */
+.botones-card{
+    width: 90%;
+    display: flex;
+    justify-content: center;
     
 }
+.botones-card button{
+    width: 15rem;
+    height: 2rem;
+    font-size: 1rem;
+    border-radius: .5rem;
+}
+/* ITEM DETAIL */
+.detalles-contenedor{
+    margin: 2rem 12rem;
+}
+.contenedor-nombre{
+    display: flex;
+    justify-content: center;
+}
+.img-detalles{
+    margin: 5rem;
+}
+.img-detalles img{
+    width: 264px;
+    height: 264px;
+}
 
+.nombre-precio{
+    margin: 3rem 1rem 3rem 5rem;
+    border-style: solid;
+    border-radius: 1rem;
+    width: 22rem;
+    height: 22rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nombre-precio h4{
+    font-size: 2rem;
+    
+}
+/* ITEM COUNT */
+
+.item-count{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+.item-count button {
+    height: 1.5rem;
+    margin: 1rem;
+}
+.item-count p{
+    color: black;
+}

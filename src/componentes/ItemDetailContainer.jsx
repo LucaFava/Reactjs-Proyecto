@@ -10,7 +10,7 @@ export  const ItemDetailContainer = () => {
     const [item, setItem] = useState({})
     // useParams es un hook que nos devuelve un objeto con los parametros que hay en nuestra url
     const id = useParams().id
-    console.log(id);
+    
     
     useEffect(() => {
       pedirItemId(id)
@@ -23,8 +23,8 @@ export  const ItemDetailContainer = () => {
     
     
     return(
-        <div>
+        <section className="section-detalles">
              <ItemDetail item={item}/>
-        </div>
+        </section>
     )
 }
