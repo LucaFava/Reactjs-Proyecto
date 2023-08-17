@@ -5,6 +5,7 @@
         "precio": 30000 ,
         "categoria":"auricular" ,
         "marca": "hyperx",
+        "cantidad": 1,
         "imagen" : "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_9612_Auriculares_HP_HyperX_Cloud_Stinger_Gaming_Negro__PC___PS4___Switch___XBOX_27f1808e-grn.jpg",
         "descripcion" : "​Los auriculares HyperX Cloud Stinger™ son ideales para jugadores que buscan una comodidad ligera, una calidad de sonido excepcional y la mayor ventaja. Con un peso de solo 275 gramos, son cómodos para el cuello y sus almohadillas giran en un ángulo de 90 grados para un mejor ajuste. Sus controladores direccionales de 50 mm posicionan el sonido directamente hacia el oído para una precisión de audio y una calidad del sonido al nivel del juego más exigente. Cuenta con espuma viscoelástica exclusiva HyperX de gran calidad para ofrecer una comodidad excepcional en sesiones de juego prolongadas"
     },

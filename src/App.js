@@ -3,13 +3,16 @@ import { ItemListContainer } from './componentes/ItemListContainer';
 import { NavBar } from './componentes/NavBar';
 import { ItemDetailContainer } from './componentes/ItemDetailContainer';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-
-import { Provider } from './contexts/CartContext';
+import { CartContext } from './contexts/CartContext';
+import { useState } from 'react'
 
 function App() {
+  
+  
+
   return (
     <div>
-      <Provider>
+      <CartContext.Provider>
         <BrowserRouter>
           <NavBar />
           <Routes>
@@ -19,7 +22,7 @@ function App() {
             <Route path='/item/:id' element={<ItemDetailContainer />}/>
           </Routes>
         </BrowserRouter>
-      </Provider>
+        </CartContext.Provider>
     </div>
   );
 }

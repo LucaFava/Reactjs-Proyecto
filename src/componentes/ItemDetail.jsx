@@ -1,27 +1,15 @@
 import { useContext, useState } from "react";
 import { ItemCount } from "./ItemCount"
-
+import { CartContext } from "../contexts/CartContext";
+import { Link } from "react-router-dom"
 
 export const ItemDetail = ( {item} ) => {
-    // LOGICA DEL CONTEXT
-    
-   
-    // FUNCIONES DE LOS BOTONES DEL DETAIL
+    const [quantityAdded, setQuantityAdded] = useState(0)
 
-    const [cantidad, setCantidad] = useState(1)
-
-    
-
-    const restar = () => {
-        if (cantidad > 1) {
-            setCantidad(cantidad - 1)
-        }
+    const handleOnAdd = (quantity) =>{
+        setQuantityAdded(quantity)
     }
-    const sumar = () => {
-        if (cantidad) {
-            setCantidad(cantidad + 1)
-        }
-    }
+
     
     return(
         <article className="detalles-contenedor">
@@ -32,7 +20,13 @@ export const ItemDetail = ( {item} ) => {
                 <div className="nombre-precio">
                     <h4>{item.nombre}</h4>
                     <p>${item.precio}</p>
-                    <ItemCount  cantidad={cantidad} restar={restar} sumar={sumar} />
+                    {
+                        quantityAdded > 0 ? (
+                            <Link to='/cart' className= "options"><button>Terminar compra</button></Link>
+                        ) : (
+                            <ItemCount  onAdd={handleOnAdd} />
+                        )
+                    }
                 </div>
             </div>
             <div className="descripcion">
