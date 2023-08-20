@@ -9,22 +9,22 @@ import { useState } from "react"
 
    console.log(cart);
 
-   const addItem = (item, quantity) => {
-      if (!isInCart(item.id)) {
-         setCart(prev => [...prev, {...item, quantity}])
+   const addProd = (prod, quantity) => {
+      if (!isInCart(prod.id)) {
+         setCart(prev => [...prev, {...prod, quantity}])
       } else {
          console.log("el producto ya fue agregado");
       }
    }
-   const removeItem = (itemId) => {
-      const cartUpdate = cart.filter(prod => prod.id !== itemId )
+   const removeProd = (ProdId) => {
+      const cartUpdate = cart.filter(prod => prod.id !== ProdId )
       setCart(cartUpdate)
    }
    const clearCart = () => {
       setCart([])
    }
-   const isInCart = (itemId) => {
-      return cart.some(prod => prod.id === itemId)
+   const isInCart = (ProdId) => {
+      return cart.some(prod => prod.id === ProdId)
    }
 
 
@@ -32,7 +32,7 @@ import { useState } from "react"
 
 
    return(
-      <CartContext.Provider>
+      <CartContext.Provider value={{cart, addProd, removeProd, clearCart}}>
          {children}
       </CartContext.Provider>
    )

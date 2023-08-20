@@ -161,3 +161,11 @@ background: linear-gradient(330deg, rgba(3,0,85,1) 22%, rgba(0,35,255,1) 65%, rg
 .item-count p{
     color: black;
 }
+/* CART */
+
+.contenedor-cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

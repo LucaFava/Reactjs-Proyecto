@@ -5,7 +5,7 @@
         "precio": 30000 ,
         "categoria":"auricular" ,
         "marca": "hyperx",
-        "cantidad": 1,
+        "quantity": 1,
         "imagen" : "https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_9612_Auriculares_HP_HyperX_Cloud_Stinger_Gaming_Negro__PC___PS4___Switch___XBOX_27f1808e-grn.jpg",
         "descripcion" : "​Los auriculares HyperX Cloud Stinger™ son ideales para jugadores que buscan una comodidad ligera, una calidad de sonido excepcional y la mayor ventaja. Con un peso de solo 275 gramos, son cómodos para el cuello y sus almohadillas giran en un ángulo de 90 grados para un mejor ajuste. Sus controladores direccionales de 50 mm posicionan el sonido directamente hacia el oído para una precisión de audio y una calidad del sonido al nivel del juego más exigente. Cuenta con espuma viscoelástica exclusiva HyperX de gran calidad para ofrecer una comodidad excepcional en sesiones de juego prolongadas"
     },
@@ -15,7 +15,7 @@
         "precio": 48000 ,
         "categoria": "auricular",
         "marca": "logitech",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen" : "https://www.venex.com.ar/products_images/thumb/1540049982_3ah10psx9y602_angled.jpg",
         "descripcion": "El A10 Headset para PlayStation 4 está 'Afinado para juegos' con ASTRO Audio, asegurando que escuche su juego y sus compañeros de equipo con claridad y precisión. El micrófono unidireccional con funcionalidad flip-to-mute y control de volumen en línea proporciona un control total de su experiencia de audio de juego. Resistente a los daños con una construcción de comodidad extendida para combatir la fatiga significa que puede jugar por más tiempo y jugar mejor. "
     },
@@ -25,7 +25,7 @@
         "precio": 20000 ,
         "categoria": "auricular",
         "marca": "logitech",
-        "cantidad":1 ,
+        "quantity":1 ,
         "imagen" : "https://www.venex.com.ar/products_images/thumb/1582917314_332.jpg",
         "descripcion": "Todo en estos audífonos es confort: Las ligeras copas y diadema de piel sintética de lujo se han creado para eliminar la presión en las orejas. Las copas giran hasta 90 grados para mayor confort. Ajusta el volumen confortable y rápidamente en cualquier plataforma con la rueda de volumen montada en copa. Tus audífonos funcionan con PC o Mac o con consolas de videojuegos incluidas PlayStation 4™, Xbox One™, Nintendo Switch™ y dispositivos móviles a través de cable con conector de 3,5 mm"
     },
@@ -35,7 +35,7 @@
         "precio": 45000 ,
         "categoria": "auricular",
         "marca": "logitech",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen" : "https://www.venex.com.ar/products_images/thumb/1631221124_000000000041378918354concepto-6169538.jpg",
         "descripcion": "Los G335 sólo pesan 240 gramos, con almohadillas más finas y cable, para ofrecer una sencilla experiencia Plug and Play. "
     },
@@ -45,7 +45,7 @@
         "precio": 18000 ,
         "categoria": "auricular",
         "marca": "redragon",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_28583_Auriculares_Redragon_Pandora_H350W_RGB_USB_Surround_7.1_White_b7ecd9ef-grn.jpg",
         "descripcion": "Equipado con diafragmas de 50 mm, conseguimos un sonido estéreo definido y graves excelentes, mejoran la claridad del sonido y le proporciona un campo de audio fenomenal para escuchar música y lo hace valioso para varios juegos."
     },
@@ -55,7 +55,7 @@
         "precio": 30000 ,
         "categoria": "auricular",
         "marca": "redragon",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_36399_Auriculares_Redragon_Zeus_X_H510-RGB_7.1_Surround__a5046a9f-grn.jpg",
         "descripcion": "¡Experimentá la adrenalina de sumergirte en la escena de otra manera! Tener auriculares específicos para jugar cambia completamente tu experiencia en cada partida. Con los Redragon Zeus X no te perdés ningún detalle y escuchás el audio tal y como fue diseñado por los creadores.El formato perfecto para vos"
     },
@@ -65,7 +65,7 @@
         "precio": 11000 ,
         "categoria": "mouse",
         "marca": "hyperx",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://technozonecl.com/wp-content/uploads/2022/01/https___imagizer.imageshack.com_img924_3244_uRqCMH.jpg",
         "descripcion" : "Para trabajar desde casa con la computadora o aprovechar los momentos de ocio, necesitás comodidad y facilidad de movimiento. Con tu HyperX Pulsefire Core encontrá eso que buscás en un solo aparato con la mejor tecnología. Adaptado a tus movimientos, El mouse de juego te ofrecerá la posibilidad de marcar la diferencia y sacar ventajas en tus partidas. Su conectividad y sensor suave ayudará a que te desplaces rápido por la pantalla"
     },
@@ -75,7 +75,7 @@
         "precio": 26500 ,
         "categoria": "mouse",
         "marca": "hyperx",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_18157_Mouse_HP_HyperX_Pulsefire_Raid_11_Botones_programables_92785e4d-grn.jpg",
         "descripcion" : "Sumérgete en la experiencia de juego definitiva con el mouse gamer HyperX Pulsefire Raid. Diseñado especialmente para los entusiastas de los videojuegos, este mouse cuenta con un sensor óptico PixArt PMW3389 de alta precisión y 16000 dpi, que te permitirá apuntar y moverte con total fluidez en tus partidas. Además, sus 11 botones te brindarán un control total y personalizable, adaptándose a tus necesidades y estilo de juego. Gracias a su rueda de desplazamiento, podrás navegar por tus menús y opciones de manera rápida y cómoda."
     },
@@ -85,7 +85,7 @@
         "precio": 14440 ,
         "categoria": "mouse",
         "marca": "logitech",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_18544_Mouse_Logitech_G203_Lightsync_RGB_Black_3c173ae1-grn.jpg",
         "descripcion" : "Logitech diseña productos y experiencias que ocupan un lugar cotidiano en la vida de las personas, poniendo foco en la innovación y la calidad. Su objetivo es crear momentos verdaderamente únicos y significativos para sus usuarios. Los mouses Logitech se adaptan a la forma de tu mano para proporcionarte horas de comodidad. Sin necesidad de mover el brazo para deslizar el cursor, tu mano se fatigará menos. Son ideales para cualquier espacio de trabajo y quienes tienen la mesa llena de diversos objetos."
     },
@@ -95,7 +95,7 @@
         "precio": 11000 ,
         "categoria": "pad",
         "marca": "hyperx",
-        "cantidad": 1,
+        "quantity": 1,
         "imagen":"https://www.venex.com.ar/products_images/thumb/1564157364_81hikye19l._sl1428_.jpg",
         "descripcion" : "Es tan fácil deslizar el mouse. Con tu HyperX Speed Edition podrás llenar la pantalla de tu ordenador de clicks. Su elaborada superficie le dará precisión y comodidad a tus movimientos. Diseñada con materiales de calidad, tu almohadilla de goma, tela te dará una agradable sensación al tacto y evitará un gran desgaste en la base de tu mouse. Este tipo de opción es ideal para gamers ya que reparte la presión de manera simétrica, conservando un nivel de precisión adecuado"
     },
@@ -105,7 +105,7 @@
         "precio": 18000 ,
         "categoria": "pad",
         "marca": "hyperx",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://www.venex.com.ar/products_images/1560544953_kingstonpadmousehyperxfurysproxlhxmpfssxl900x420d_nq_np_754921mla30635151937_052019f.jpg",
         "descripcion": "Diseñada con materiales de calidad, tu almohadilla de goma, tela te dará una agradable sensación al tacto y evitará un gran desgaste en la base de tu mouse. Este tipo de opción es ideal para gamers ya que reparte la presión de manera simétrica, conservando un nivel de precisión adecuado, pero con el doble del tamaño de su versión S." 
     },
@@ -115,7 +115,7 @@
         "precio": 8000 ,
         "categoria": "pad",
         "marca": "redragon",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://www.venex.com.ar/products_images/thumb/1534178785_p0034.jpg",
         "descripcion": "Es tan fácil deslizar el mouse. Con tu Redragon Suzaku XL podrás llenar la pantalla de tu ordenador de clicks. Su elaborada superficie le dará precisión y comodidad a tus movimientos. Diseñada con materiales de calidad, tu almohadilla de goma, tela te dará una agradable sensación al tacto y evitará un gran desgaste en la base de tu mouse. Este tipo de opción es ideal para gamers ya que reparte la presión de manera simétrica, conservando un nivel de precisión adecuado."
     },
@@ -125,7 +125,7 @@
         "precio": 25600 ,
         "categoria": "teclado",
         "marca": "hyperx",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_26222_Teclado_HP_HyperX_Alloy_CORE_RGB_LA_dd3acd58-grn.jpg",
         "descripcion" : "Sumérgete en el mundo de los videojuegos con el teclado gamer HyperX Alloy Core RGB. Diseñado especialmente para los amantes de los juegos, este teclado cuenta con un diseño QWERTY en español latinoamérica y una conexión USB 2.0 para garantizar una experiencia de juego fluida y sin interrupciones. La retroiluminación RGB te permite personalizar el aspecto de tu teclado, mientras que las 105 teclas, incluidas las teclas de acceso rápido y el pad numérico, te ofrecen un control total durante tus partidas. Además, las teclas anti-ghost aseguran que tus comandos sean registrados correctamente, incluso cuando presionas varias teclas al mismo tiempo. No te preocupes por derrames accidentales, ya que este teclado es resistente a salpicaduras, lo que te permite disfrutar de tus juegos favoritos sin preocupaciones."
     },
@@ -135,7 +135,7 @@
         "precio": 44200 ,
         "categoria": "teclado",
         "marca": "hyperx",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://www.venex.com.ar/products_images/thumb/1581968287_rtrt.jpg",
         "descripcion": "Este teclado HyperX de alto rendimiento permite que puedas disfrutar de horas ilimitadas de juegos. Está diseñado especialmente para que puedas expresar tanto tus habilidades como tu estilo. Podrás mejorar tu experiencia de gaming, ya seas un aficionado o todo un experto y hacer que tus jugadas alcancen otro nivel."
     },
@@ -145,7 +145,7 @@
         "precio": 38000 ,
         "categoria": "teclado",
         "marca": "logitech",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://compragamer.net/pga/imagenes_publicadas/compragamer_Imganen_general_4468_Teclado_Logitech_G213_Prodigy_RGB_Gaming_Espa__ol_ES_7f6b69a5-grn.jpg",
         "descripcion": "El teclado Logitech Serie G Prodigy G213 está dirigido especialmente para aquellos jugadores que pasan horas al frente de una pantalla con sus juegos favoritos. Sus teclas están diseñadas con tecnología Logitech G Mech-Dome, las cuales tienen una respuesta táctil superior en comparación a dispositivos estándar de la competencia."
     },
@@ -155,7 +155,7 @@
         "precio": 14000 ,
         "categoria": "teclado",
         "marca": "redragon",
-        "cantidad": 1, 
+        "quantity": 1, 
         "imagen":"https://www.venex.com.ar/products_images/thumb/1655235540_k552rgb_pnghq_1.jpg",
         "descripcion": "La gran calidad del Redragon Kumara K552, y su precio económico lo vuelven un atractivo ideal para que te diviertas frente a la pantalla. Su ergonomía, su base antidelizante y su rápido tiempo de respuesta permite que tus juegos favoritos se sientan más cerca que nunca, al alcance de tus manos. Este dispositivo tiene teclas antighosting. Esta cualidad es indispensable si requerís de un uso intensivo del periférico. Gracias a esto podrás evitar fallas al tocar varias teclas al mismo tiempo."
     }

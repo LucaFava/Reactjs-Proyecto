@@ -6,9 +6,6 @@ import { Item } from "./Item"
 export const ItemList = ({productos, titulo}) => {
 
 
-
-
-
     return(
         <section className="productos-section">
             <h1>{titulo}</h1>

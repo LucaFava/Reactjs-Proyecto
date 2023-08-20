@@ -1,30 +1,43 @@
 import { useState, useEffect } from "react"
-import { pedirItemId } from "../pedirDatos"
 import { ItemDetail } from "./ItemDetail"
 import { useParams } from "react-router-dom"
-
+import { getDoc, doc, getFirestore } from "firebase/firestore"
 
 export  const ItemDetailContainer = () => {
     
     
-    const [item, setItem] = useState({})
+    const [productos, setProductos] = useState(null)
+
     // useParams es un hook que nos devuelve un objeto con los parametros que hay en nuestra url
     const id = useParams().id
-    
-    
+
+    const [loading, setLoading] = useState(false)
+
+    // LÓGICA REEMPLAZADA POR FIRESTORE
+
     useEffect(() => {
-      pedirItemId(id)
-        .then((res) => {
-            setItem(res)
+        setLoading(true)
+
+        const db = getFirestore()
+
+        const docRef = (db, "productos", id)
+
+        getDoc(docRef)
+        .then(snapshot => {
+            const data = snapshot.data()
+            const prodAdapted = {id: snapshot.id, ...data}
+
+            setProductos(prodAdapted)
         })
-    
+        .finally(() => {
+            setLoading(false)
+        })
     }, [id])
-    
     
     
     return(
         <section className="section-detalles">
-             <ItemDetail item={item}/>
+             <ItemDetail producto={productos}/>
         </section>
     )
 }
