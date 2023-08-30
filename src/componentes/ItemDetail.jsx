@@ -7,12 +7,13 @@ export const ItemDetail = ( {producto} ) => {
     const [quantityAdded, setQuantityAdded] = useState(0)
 
     const {addProd} = useContext(CartContext)
+
+   
+    
     
     
     const handleOnAdd = (quantity) =>{
         setQuantityAdded(quantity)
-
-        
 
         addProd(producto, quantity)
     }
@@ -31,7 +32,7 @@ export const ItemDetail = ( {producto} ) => {
                         quantityAdded > 0 ? (
                             <Link to='/cart' className= "options"><button>Terminar compra</button></Link>
                         ) : (
-                            <ItemCount  onAdd={handleOnAdd} />
+                            <ItemCount  onAdd={handleOnAdd}  />
                         )
                     }
                 </div>

@@ -109,12 +109,7 @@ background: linear-gradient(330deg, rgba(3,0,85,1) 22%, rgba(0,35,255,1) 65%, rg
     justify-content: center;
     
 }
-.botones-card button{
-    width: 15rem;
-    height: 2rem;
-    font-size: 1rem;
-    border-radius: .5rem;
-}
+
 /* ITEM DETAIL */
 .detalles-contenedor{
     margin: 2rem 12rem;

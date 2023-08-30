@@ -2,10 +2,10 @@ import { useState } from "react"
 
 
 
-export const ItemCount = ({onAdd}) => {
+export const ItemCount = ({ onAdd }) => {
 
 
-const [quantity, setQuantity] = useState(1)
+    const [quantity, setQuantity] = useState(1)
 
 const restar = () => {
     if (quantity > 1) {

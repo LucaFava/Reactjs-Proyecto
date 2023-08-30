@@ -27,12 +27,14 @@ import { useState } from "react"
       return cart.some(prod => prod.id === ProdId)
    }
 
-
-
+   // FUNCION DEL CARTWIDGET
+   const cantidadCart = () => {
+      return cart.reduce((acc, prod) => acc + prod.cantidad, 0)
+    }
 
 
    return(
-      <CartContext.Provider value={{cart, addProd, removeProd, clearCart}}>
+      <CartContext.Provider value={{cart, addProd, removeProd, clearCart, cantidadCart}}>
          {children}
       </CartContext.Provider>
    )

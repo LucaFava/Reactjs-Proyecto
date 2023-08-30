@@ -20,12 +20,12 @@ export  const ItemDetailContainer = () => {
 
         const db = getFirestore()
 
-        const docRef = (db, "productos", id)
+        const docRef = doc(db, "productos", id)
 
         getDoc(docRef)
-        .then(snapshot => {
-            const data = snapshot.data()
-            const prodAdapted = {id: snapshot.id, ...data}
+        .then(doc => {
+            const data = doc.data()
+            const prodAdapted = {id: doc.id, ...data}
 
             setProductos(prodAdapted)
         })
@@ -37,7 +37,7 @@ export  const ItemDetailContainer = () => {
     
     return(
         <section className="section-detalles">
-             <ItemDetail producto={productos}/>
+             {productos && <ItemDetail producto={productos}/>}
         </section>
     )
 }

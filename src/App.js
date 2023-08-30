@@ -11,6 +11,10 @@ import { CartContextProvider } from './contexts/CartContext';
 // import { useEffect } from 'react';
 
 function App() {
+  // FUNCION DEL CARTWIDGET
+
+  
+
 
   // TRAER UN SOLO OBJETO
   //  useEffect(() => {
