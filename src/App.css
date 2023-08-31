@@ -164,3 +164,56 @@ background: linear-gradient(330deg, rgba(3,0,85,1) 22%, rgba(0,35,255,1) 65%, rg
     justify-content: center;
     align-items: center;
 }
+
+.botones-cart{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ITEM CART */
+.contenedor-itemCart {
+    margin: 2rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+    background-color: rgb(219, 219, 219);
+}
+
+
+.img-cart{
+    display: flex;
+    font-size: 2rem;
+    width: 7rem;
+}
+.img-cart p{
+    margin-left: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img-cart img{
+    width: 10rem;
+    margin: 1.5rem;
+}
+
+.datos-cart{
+    display: flex;
+}
+.datos-cart p{
+    margin: 4rem;
+    font-size: 1.3rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.boton-eliminar{
+    margin: 1.5rem;
+}
+.boton-eliminar button{
+    height: 2rem;
+    width: 11rem;
+    font-size: 1rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: red;
+    color: white;
+    
+}
+

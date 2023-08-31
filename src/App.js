@@ -80,6 +80,7 @@ function App() {
             <Route path='/productos' element={<ItemListContainer/>}/>
             <Route path='/item/:id' element={<ItemDetailContainer />}/>
             <Route path='/cart' element={<Cart/>}/>
+            <Route path='/checkout'/>
           </Routes>
         </BrowserRouter>
       </CartContextProvider>  

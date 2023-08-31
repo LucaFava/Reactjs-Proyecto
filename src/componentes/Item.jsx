@@ -19,7 +19,7 @@ export const Item = ({producto}) => {
             </div>
             <div className='botones-card'>
               <Link to={`/item/${producto.id}`}><button>Ver más</button></Link>
-              <button onClick={addProd}addProd>Agregar al carrito</button>
+              <button onClick={()=>addProd(producto, 1)}>Agregar al carrito</button>
             </div>
         </div>
     )
